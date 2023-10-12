@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form </title>
+	<style>
+	h1
+	{
+		text-align: center;
+		font-family: Lucida Sans;
+		font-weight: bold;
+		color:  #008fb3;
+	}
+
+	h2
+	{
+		text-align: center;
+		color: #0099e6;
+	}
+
+
+label
+{
+	display: block;
+	width: 200px;
+
+}
+legend
+{
+	border: 2px solid black;
+	background: yellow;
+}
+img
+{
+	text-align: right;
+	background: green;
+
+}
+fieldset
+{
+	border: 3px solid black;
+}
+#sub
+{
+	text-align: center;
+	margin-left: 91%;
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-family:  ariel;
+	border: none;
+	width: 120px;
+	height: 70px;
+
+}
+td input
+{
+	border-style: 1px solid blue;
+}
+form
+{
+	background-color:#e6f7ff;
+}
+
+	</style>
+
+</head>
+<body>
+	<h1>VIRTUAL UNIVERSITY OF PAKISTAN</h1>
+	<h2>Admission Form</h2>
+	<hr width="90%">
+	<form method="get">
+		<fieldset>	
+		<legend>Student Information</legend>
+		<table>	
+		<tr>
+		<td ><label>Admission In Course</label></td>
+		<td><input type="text" name="Crs_Name" size="35"></td>
+		</tr>
+		<tr>
+		<td><label>Section</label></td>
+		<td><input type="text" name="sec" size="35"></td>		
+		<td><label>Timing</label></td>
+		<td><input type="text" name="time" size="35"></td>
+
+	</tr>
+	<tr>
+		<td id="name"><label>Name of Student</label></td>
+		<td><input type="text" name="Std_Name"  size="35"></td>
+		</tr>
+		<tr>
+		<td><label>Date of Birth</label></td>
+		<td><input type="date" name="dob"></td>
+		<td><label>Place of Birth</label></td>
+		<td><input type="text" name="plc_Birth"  size="35"></td>
+	</tr>
+		<tr>
+		<td><label>NIC</label></td>
+		<td><input type="text" name="nic"  size="35"></td>
+		<td><label>Date of Issue</label></td>
+		<td><input type="text" name="date_issue"  size="35"></td>
+	</tr>
+	<tr>
+		<td><label>Student's Cell No</label></td>
+		<td><input type="text" name="std_Cell"  size="35"></td>
+		<td><label>Father's Cell No</label></td>
+		<td><input type="text" name="f_Cell"  size="35"></td>
+	</tr>
+	<tr>
+		<td><label>Address</label></td>
+		 <td><textarea name="address" cols="31" rows="" size="35"></textarea></td>
+	</tr>
+		
+		</table>
+</fieldset>
+	</form>
+	<br><br><br>
+	<!------------------------------------ FORM 2 ------------------------------------>
+
+	<form method="post">
+		<fieldset>
+		<table>
+			
+		<legend>Academic Information</legend>
+		<tr>
+		<td id="name"><label>Last School Attend</label></td>
+		<td><input type="text" name="last_scl" size="100%"></td>
+	</tr>
+	<tr>
+		<td><label id="name">Level of Schooling/Passed</label></td>
+		<td><input type="text" name="scl_Passed" size="100%"></td>
+	</tr>
+	</table>
+	</fieldset>
+</form>
+<br><br><br>
+
+	<!------------------------------------ FORM 3 ------------------------------------>
+
+<form method="post">
+		<fieldset>
+		<table>
+		<legend>Parent's Information</legend>
+		<tr>
+		<td><label>Father / Guardian Name</label></td>
+		<td><input type="text" name="f_Name" size="100%"></td>
+	</tr>
+	<tr>
+		<td><label>Father / Guardian / Profession</label></td>
+		<td><input type="text" name="prof" size="100%"></td>
+	</tr>
+	<tr>
+		<td><label>Father / Guardian / Workplace</label></td>
+		<td><input type="text" name="wrkplc" size="100%"></td>
+	</tr>
+</table>
+
+	</fieldset>
+	
+		<p><input type="image" src="submit.jpg" id="sub"></p>
+	
+	
+</form>
+</body>
+</html>
